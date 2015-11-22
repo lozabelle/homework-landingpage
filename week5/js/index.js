@@ -16,8 +16,6 @@ $('#submit-btn').click(function() {
   var sydney =["Syd", "Sydney"];
   var austin=["Austin", "ATX"];
 
-
-
   if (newYork.indexOf(city) != -1) {
       $("body").css("background-image","url(./images/nyc.jpg)");
   } else if (sanFransisco.indexOf(city) != -1) {
