@@ -13,7 +13,6 @@ $(document).ready( function () {
 		$('.readmore').hide();
 	});
 
-
 	$('.readlesshide').click(function () {
 		// log for testing/debugging
 		console.log( "readlesshide was called");
